@@ -1,0 +1,193 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1018,2008" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="608,1943" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Sequence1" sap:VirtualizedContainerService.HintSize="546,1832" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: SPINE HR" sap:VirtualizedContainerService.HintSize="484,1721" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" ScopeGuid="b346b875-9038-48a5-b17d-c00818e1f26b" Version="V2" WindowResize="Maximize">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1504" sap2010:WorkflowViewState.IdRef="Sequence_2">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'User Name *'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="b346b875-9038-48a5-b17d-c00818e1f26b" Text="486" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://mosambee.spinehr.in/login.aspx?ReturnUrl=%2fstart_new.aspx" CvType="InputBox" DesignTimeRectangle="1095, 459, 300, 33" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT txtUser'" FullSelectorArgument="&lt;webctrl tableRow='3' tag='TABLE' /&gt;&lt;webctrl id='txtUser' tableRow='7' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='txtUser' type='text' tag='INPUT' class='input used' aaname='' /&gt;" Guid="3443f214-1ed2-4fe0-a84b-d59d63f7e83a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAATAAAAAlCAYAAADFl7VvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACgSURBVHhe7dSxCcAwEMDA7L/fz+NUNqRwH8EdaAU9CyDKwICsM7CZkaRE22dgAH9nYECWgQFZBgZkGRiQZWBAloEBWQYGZBkYkGVgQJaBAVkGBmQZGJBlYECWgQFZBgZkGRiQZWBAloEBWQYGZBkYkGVgQJaBAVkGBmQZGJBlYECWgQFZBgZkGRiQZWBAloEBWdeBSVKh7QwMoMbAgKi1Xsb/1JD5LhS/AAAAAElFTkSuQmCC" InformativeScreenshot="50da69685e2e0b268f3515d6cbcad8fa.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SPINE HR' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvTextArgument="User Name" CvType="Text" DesignTimeRectangle="1094, 440, 86, 15" ElementType="Text" FriendlyName="'User Name *'" FullSelectorArgument="&lt;webctrl tableRow='3' tag='TABLE' /&gt;&lt;webctrl tableRow='7' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='LABEL' class='label' aaname='                                                                                 User Name *' check:innerText='User Name *' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFoAAAATCAYAAAAQ/xqmAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH5SURBVFhH7ZYhTwNBEIX5zygUGHAoFCSIIiAkCBAYVA0JFkXQWAyCBDfko31hbjrXZS9kKcl+yabX3dmZN+/2rt2yThO60Y3oRjdiaPT9tdnVodnH+3LC8fRgdrZn9va6nGgAeo63F7Ujf6HnJ7w8m10crOj6H0ZnmjbNaHSg525mdnO0MNvp3nyjZ7tmpzuLa8+mnmh0opeT7ZhutO4gJ44RmyYHubJ1Prnj88t8r5Cex/mq+KiHNWJUj3F7slgDrjlpXhP5/b5YY10PGb6v4OM0oyWAeEEjaowYYv0619qv9bFawusht4/3epSPOcE15miO/f671n1OX6PUQwY5ycF+bqq7adOMzkR4iI15uGaOPaX9wuuJe7yeDMUTB/FGxXXw9Uo9VDL91UHs2CPl1+JgLWsyI+ohXo931AMywtdTDYxmiJLRpR4qGRpN0XVGZ2sSjAA1Hk9PZKrRoNy8t1XPa5CZsUat0aUeKhkazUlJ/gN+EYVGvHAEy4SMrMmMzGj9eJ3vf9cgT6ynuKlGl3qoZGg0BSgUm0OM/0WWSMQI36zWfWO+8azJjMxoYN4/QWP6iFGNWqNLPVQyNFqQHJEavgmhomMxvlkNCcyazBgzWgeCHOQCma/Bq4UYGVVrNKzroZLc6M6v041uRDe6Ed3oRnSjm2D2CZ0Zqq+81UQQAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Password *'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="b346b875-9038-48a5-b17d-c00818e1f26b" Text="Sbitcs@654" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://mosambee.spinehr.in/login.aspx?ReturnUrl=%2fstart_new.aspx" CvType="InputBox" DesignTimeRectangle="1095, 528, 300, 33" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FriendlyName="'INPUT txtPassword'" FullSelectorArgument="&lt;webctrl tableRow='3' tag='TABLE' /&gt;&lt;webctrl id='txtPassword' tableRow='9' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='txtPassword' type='password' tag='INPUT' class='input used' aaname='' /&gt;" Guid="0eac3aaa-e258-47bd-b0f2-cb52ca630d61" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAATAAAAAlCAYAAADFl7VvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACgSURBVHhe7dSxCcAwEMDA7L/fz+NUNqRwH8EdaAU9CyDqDGxmJCnR9hkYwN8ZGJBlYECWgQFZBgZkGRiQZWBAloEBWQYGZBkYkGVgQJaBAVkGBmQZGJBlYECWgQFZBgZkGRiQZWBAloEBWQYGZBkYkGVgQJaBAVkGBmQZGJBlYECWgQFZBgZkGRiQZWBAloEBWdeBSVKh7QwMoMbAgKi1Xi/S05Qi3UDWAAAAAElFTkSuQmCC" InformativeScreenshot="303f0ec11b952528f8da3dfda2129e30.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SPINE HR' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvTextArgument="Password *" CvType="Text" DesignTimeRectangle="1095, 508, 76, 15" ElementType="Text" FriendlyName="'Password *'" FullSelectorArgument="&lt;webctrl tableRow='3' tag='TABLE' /&gt;&lt;webctrl tableRow='9' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='LABEL' class='label' aaname='                                                                                 Password *' check:innerText='Password *' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFAAAAATCAYAAAAH3YpvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH1SURBVFhH7ZUhT8RAEIX5zygUKBwKBQniMIQEAQKDwpBgUQSBwmIQJOeWfGlf+piba3u3CSGXfUnDdmfmzZvX3WOvNFShGViJZmAlmoGVGAz8+izl8qiUs/3Vh33iu4r78+4ZA/Gn2/5lwKqBr8/9hoHim5NSlt/9xo5hzEBMw5eHRZfDgTKP5hn48VbK4rD7u4sYMxDImyRnOwPJidfcj3eMe2NOMadZsYuDjlf7zpN9OB82cqHff2rI4+SwT1yzsa8a6u9Of2uMQBM55AZ/pg2USB7W2VA0kBExHnndAECtuH2tmA/uXFo7F2v2ZCLv0iXA6Tnq4TwOtGAeHPQNefP+ifhQGdw0mkTRAhxwrRPrPBL+eD3kw63hfS1oBmKAOtce42BK0wTmXeEMypfJ8SpqPwqDP9YIqiUHfq2vjrt3Tov44mkViBPT2vv7B3LEvA2wuYE0Z3AMkNB1wtysKNCNdiM1DLX8JY+T+P4yGAoyA8X5rw3MhFOz7toC4nDTIyIOrdxoFib68BlnnCEak82o/n9qoAtnIMyTgdRHMzVIJpY8N0Y6nANOTqp/OOU5F2vXpr6OqJ/37IbMxHa/gTTT1WRQaqjVKZIoPdngHo894c9qxC/og4jHjQGZgcD1Uc/prjawYSs0AyvRDKxEM7AKpfwAt7bJ3YGgYdcAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b346b875-9038-48a5-b17d-c00818e1f26b" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://mosambee.spinehr.in/login.aspx?ReturnUrl=%2fstart_new.aspx" CvElementArea="1093, 594, 303, 45" CvTextArea="1221, 607, 46, 18" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="1095, 596, 300, 42" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Login'" FullSelectorArgument="&lt;webctrl tableRow='3' tag='TABLE' /&gt;&lt;webctrl id='btnLogin' tableRow='14' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='btnLogin' type='submit' tag='INPUT' class='button buttonBlue' aaname='Login' check:text='Login' /&gt;" Guid="91ce1cca-997e-4ccd-a6f4-6c32bd0101ef" ImageBase64="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" InformativeScreenshot="83e642223619c9ae9de5838400c35e2f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SPINE HR' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'My Attendance'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b346b875-9038-48a5-b17d-c00818e1f26b" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://mosambee.spinehr.in/start_new.aspx" CvTextArgument="My Attendance" CvType="Text" DesignTimeRectangle="284, 319, 87, 25" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'My Attendance'" FullSelectorArgument="&lt;webctrl aaname='My Attendance' parentid='MenuContent' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='My Attendance' parentid='MenuContent' tag='A' type='' class='' check:innerText='My Attendance' /&gt;" Guid="9e0c9681-c3d8-4e15-a2d6-f44a77bf9321" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFsAAAAdCAYAAADFNxDoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKgSURBVGhD7ZY/ahVRGMVdRlbgAswG3IAbcAPWkspOLQUby3RWYhmwsYulhYWNKEEUkSiIGEKIRQhXfmPO83jezCS+Bxch3w8u8+a7399zZya50opulNgdKbE7UmJ3pMTuSIndkRK7IyV2R0rsjpTYHbl0Yh++ftY+P751dteXhdinPw/bh0c3hsXv5OTgS9u7v9m+PX94Zvk35uIZ3u0IMtXHuvw3Yn/avtn27l0bGkoQ483tjZXFJo78rBTx0or9defuUjM8lQy//3RrEAVf7v1Qjj++au8fXB98E+U+erc7XPGVnTwcIosnn/q6Z6kGMW/vXF34qQ790C+LPXyUH/RGKe77i+3FfL7H8gPHh17Un9cE+lJc9iN76rgkdgoCGoirGpJN+F5CLnJSI+NAuUU+2QzCQaon3yeOwXQo3GuPxW/tSVzVx649cvNWqwY+fnDce5wL/OPlk+E3du8751oSm+QuSNoVzL0EdJ8xvCg++QZkU9m09wPEss819zx/5gFs7i9yhrme2OPewc6+27PWqNg+jAdQXA24P0vCJ+TwpxKy2bnBgD29mlp66tjzgaZ6F26TQJkTsifNeHKw/9ehiMylhU2Mig0U4puVNm+AxmVzu4NPNqAmJOZFxJ7Kj31ObM8D8pc4+EDOPye2x4mMH2NSbK6c9NzQDETM7yb+fBZEDiTw9af9PLHx8++pI/GEi83i26r6usc/e8gaU2LTE/axbzZ27zuZFBso6EKRzBsAfHxYh1z5fRYehx8HqwF0SLwBqs/V3wzF0o/XJ15ig3ITQ37/b8Rz0idxmh8fnxW7xAb2FOsCEyc7y/VbiL0qJPeExTRriZ2nXcyzkth6zf2vd3E+a39GiotTYnekxO5Iid2RErsjJXY3WvsFf4ScqOl8ZYEAAAAASUVORK5CYII=" InformativeScreenshot="8f2410bc1299c930e257fd39776ff6c6.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Spine HR 6.0.4' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'For The Period'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b346b875-9038-48a5-b17d-c00818e1f26b" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://mosambee.spinehr.in/Atten/MyAttendanceReport.aspx?mnusr=menu__10101" CvElementArea="333, 316, 107, 38" CvTextArea="344, 328, 28, 16" CvTextArgument="May" CvType="InputBox" DesignTimeRectangle="334, 317, 104, 36" DesignTimeScaleFactor="1" ElementType="DropDown" FriendlyName="'May'" FullSelectorArgument="&lt;webctrl tableRow='6' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SELECT' class='' aaname='' /&gt;" Guid="2dc01982-7fc6-4e9f-a9b5-f1aadfc853fc" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGwAAAAoCAYAAAAbrx+3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHISURBVHhe7dfRbYMwEMbxLupJwos3gQUYAMaIGCLkmWf3zrGNbUCoxZU49/tLSIkhkZqfztAvg0QFMGEFsPn1wnHjw5eAoXsGMGEBTFgAExbAhAUwYQFMWAATFsCEBTBhAUxYABPWdbD3aLRSRg+zW8ibzaiVUXqkV+hqZcC0JrTOTG4p6dkZRaAAK1OhCSMwmqLu6dZCn+nqWkID2Ka+782yLO7dGq/xub0KgdF08STlKHb6aC0/56fOHWE73fsOe+3B9AqOQfhvb5omQePXvMbn9tDKgflpiqZsah1GBjHRxAWABGQyHU3r+LZvbOE7KothHo9HghZj8bkY0lcQjD43aKNaRxGt705OKEVKvmMHsKZytDMsrihY/AMnP3wOZj+zbokqRsmhA16dxWhnWFxhsA+UHsZ0MmKw7PrtFK1bK2+H2weZ+vJoZ1hccbAwPfFkxGD5tPH7fNuz1/CT59E2Wl8MdYbFlQejNpORILl/pP12SA8g2/sUT12dDxtXuw72J9X9sHGlW4LxhNb+sPHb7gVm72eE9Y/uXT/tlhOGjgOYsAAmLIAJC2DCApiwACYsgAkLYMI6BMNx38MXwJCMACYqY74Ber8+H4xyFGcAAAAASUVORK5CYII=" InformativeScreenshot="b14245109492e8832872184c30ad58ca.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Spine HR 6.0.4' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvTextArgument="For The Period" CvType="Text" DesignTimeRectangle="236, 325, 90, 19" ElementType="Text" FriendlyName="'For The Period'" FullSelectorArgument="&lt;webctrl tableRow='6' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='' aaname='For The Period' check:innerText='For The Period' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF4AAAAXCAYAAACChfjKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHSSURBVGhD7ZZRkoMgDED3oh6Gm9Rr6DE6vYQ9BEtIBAJBXKrlY/NmmKlGSfJApj9WGYKKH4SKH4SKH4SKH4SKH4SKHwQT/3pMdpr4mJ8U/IjNrqac2w+zuijGr8nleM5Fnu6536s1k7Hrm647AK9m2egKKcTnD1zPy85FIzeI9wtKeHkXzv9H/q94x7aYL/Qm86F4EJZ+vrO7s0PiFtxZedOcI/FpDvmZkP8RsxcI4llv7ChK81BtC8V9jrzerI6iTlzkEHd1rP3iUUga85OH5qiYQ+E7dfHpYkIt+fwxP15XvxDxqKGcXnqyadiztPBsUdN6qc40ns3HvThokZvi40rCoAnzRjxlQeeOirp49r6XRfnT3ztQU23XU7NxxHzl5oLce1yqLbkn1cFqlz1IG/rUjverWDTZTijTIb4QSaPYDIS4UQDMI82FuRviK/NGb9L7aTxy7qgRE0ITe5KbxcPvmmSJqnjssV5nQ7y449M5JQ94r0+8T85j0hl/m/hK8VUOxPuYIA9piKc6js54cMhy+3i3eADlh8+TNXa3eCDL70Y135F4B/vXASM82xIPkPzwvvwFhLhbJMkrE698DxU/CBU/CBU/CBU/CBU/BGt/AeGBHhS787IfAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NSelectItem DisplayName="Select Item 'For The Period'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="June" ScopeIdentifier="b346b875-9038-48a5-b17d-c00818e1f26b" Version="V3">
+                <uix:NSelectItem.Items>
+                  <scg:List x:TypeArguments="x:String" Capacity="12">
+                    <x:String>January</x:String>
+                    <x:String>February</x:String>
+                    <x:String>March</x:String>
+                    <x:String>April</x:String>
+                    <x:String>May</x:String>
+                    <x:String>June</x:String>
+                    <x:String>July</x:String>
+                    <x:String>August</x:String>
+                    <x:String>September</x:String>
+                    <x:String>October</x:String>
+                    <x:String>November</x:String>
+                    <x:String>December</x:String>
+                  </scg:List>
+                </uix:NSelectItem.Items>
+                <uix:NSelectItem.Target>
+                  <uix:TargetAnchorable BrowserURL="https://mosambee.spinehr.in/Atten/MyAttendanceReport.aspx?mnusr=menu__10101" DesignTimeRectangle="334, 317, 104, 36" DesignTimeScaleFactor="1" ElementType="DropDown" FriendlyName="'April'" FullSelectorArgument="&lt;webctrl tableRow='6' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SELECT' class='' aaname='' /&gt;" Guid="b8b328f7-09a8-4b4d-9b30-7d19aba16a75" InformativeScreenshot="848448ec3a3f2fc4dcb25181bf95b1d5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Spine HR 6.0.4' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="236, 325, 90, 19" ElementType="Text" FriendlyName="'For The Period'" FullSelectorArgument="&lt;webctrl tableRow='6' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='' aaname='For The Period' check:innerText='For The Period' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF4AAAAXCAYAAACChfjKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHSSURBVGhD7ZZRkoMgDED3oh6Gm9Rr6DE6vYQ9BEtIBAJBXKrlY/NmmKlGSfJApj9WGYKKH4SKH4SKH4SKH4SKH4SKHwQT/3pMdpr4mJ8U/IjNrqac2w+zuijGr8nleM5Fnu6536s1k7Hrm647AK9m2egKKcTnD1zPy85FIzeI9wtKeHkXzv9H/q94x7aYL/Qm86F4EJZ+vrO7s0PiFtxZedOcI/FpDvmZkP8RsxcI4llv7ChK81BtC8V9jrzerI6iTlzkEHd1rP3iUUga85OH5qiYQ+E7dfHpYkIt+fwxP15XvxDxqKGcXnqyadiztPBsUdN6qc40ns3HvThokZvi40rCoAnzRjxlQeeOirp49r6XRfnT3ztQU23XU7NxxHzl5oLce1yqLbkn1cFqlz1IG/rUjverWDTZTijTIb4QSaPYDIS4UQDMI82FuRviK/NGb9L7aTxy7qgRE0ITe5KbxcPvmmSJqnjssV5nQ7y449M5JQ94r0+8T85j0hl/m/hK8VUOxPuYIA9piKc6js54cMhy+3i3eADlh8+TNXa3eCDL70Y135F4B/vXASM82xIPkPzwvvwFhLhbJMkrE698DxU/CBU/CBU/CBU/CBU/BGt/AeGBHhS787IfAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NSelectItem.Target>
+              </uix:NSelectItem>
+              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="388,85" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;June&quot;]" />
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-8, -8, 1456, 876" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="7cb31aa46df2c7d30f67d1e8431a85b9.jpg" Selector="&lt;html app='chrome.exe' title='SPINE HR' /&gt;" Title="SPINE HR" Url="https://mosambee.spinehr.in/login.aspx?ReturnUrl=%2fstart_new.aspx" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>
